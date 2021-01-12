@@ -1,0 +1,16 @@
+#picture{
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+}
+body{
+    text-align: center;
+}
+.gameimg{
+    width: 330px;
+    height: 330px;
+    transition: transform .2s;
+}
+.gameimg:hover{
+    transform: scale(0.9);
+}
